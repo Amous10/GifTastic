@@ -1,0 +1,45 @@
+* {
+    background-color: hsl(180, 1%, 74%);
+    margin: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+header {
+    font-size: 90px;
+    text-align: center;
+    background-image: url(/Users/amous/bootcamp/homework/GifTastic/assets/images/pexels-photo-255379.jpeg);
+}
+
+#gifs-appear-here {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textImg {
+    position: relative;
+    background-color: #dbdbdb8e;
+    height: 200px;
+    width: 260px;
+}
+
+.rating {
+    position: absolute;
+    margin-top: 8px;
+    text-align: center;
+    z-index: 100;
+    right: 2px;
+    padding: 3px;
+}
+
+.gif {
+    height: 200px;
+    width: 260px;
+}
+
+.btn {
+    font-size: 16px;
+    background-color: #5095aa;
+    border-color: #3e585f8e;
+}
