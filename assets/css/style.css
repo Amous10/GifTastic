@@ -9,7 +9,7 @@
 header {
     font-size: 90px;
     text-align: center;
-    background-image: url(/Users/amous/bootcamp/homework/GifTastic/assets/images/pexels-photo-255379.jpeg);
+    background-image: url("../images/pexels-photo-255379.jpeg");
 }
 
 #gifs-appear-here {
